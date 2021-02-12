@@ -3,7 +3,7 @@ Technically it's an EP13fix derived from [Xinxs's FPSSavior](https://github.com/
 
 Notes:
 - Leaf on orsha are disabled only on UL, because it's related with boss gimmick, and cause a lot of trouble for people fighting certain boss when it got disabled.
-
+---
 ### Commands:
 - /fpssavior lock
 
