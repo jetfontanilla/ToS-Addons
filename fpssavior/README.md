@@ -16,7 +16,7 @@ Notes:
 ### Version History
 **-v2.4.4** I just realized that L and UL are only different by 1 option that got turned off on UL. To make both mode has distict use, I modified L so that it will show the boss gimmick similar to H and M. The drawback is that the option that disable the fallen leaves on orsha must be turned on on L. 
 
-The reason why I don't just turn off EnableOtherPCEffect on is that when certain gimmick is already shown inside the map, simply turning off EnableOtherPCEffect won't erase those gimmick. By toggling EnableOtherPCEffect along with EnableIMCEffect, the show-hide effect can be achieved.
+The reason why I don't just turn off EnableOtherPCEffect on is that when certain gimmick is already shown inside the map, simply turning off EnableOtherPCEffect won't erase those gimmick. By toggling EnableOtherPCEffect along with EnableIMCEffect, the toggle-like effect on boss gimmick can be achieved.
 
 **-v2.4.1** a.k.a ep13fix-c.
 - The "View Boss Magic Circle Range" option can be freely toogled on M, L, and UL.
