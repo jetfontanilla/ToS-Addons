@@ -6,9 +6,7 @@ Notes:
 
 ### commands:
 - /fpssavior lock
-
 Lock/unlock the ui to move around.
 
 - /fpssavior
-
 Toggle betwen modes.
