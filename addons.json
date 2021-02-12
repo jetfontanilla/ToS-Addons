@@ -1,0 +1,17 @@
+[
+	{
+		"tosversion" : "20171227",
+		"name" : "FPS Savior v3",
+		"file" : "fpssavior",
+		"extension" : "ipf",
+		"fileVersion" : "v3.0.4",
+		"releaseTag" : "fpssavior",
+		"unicode" : "⛄",
+		"description" : "FPS Savior fix for EP13 and 64bit patch.",
+		"tags" : [
+			"fps",
+			"graphic",
+      "savior"
+		]
+	}
+]
