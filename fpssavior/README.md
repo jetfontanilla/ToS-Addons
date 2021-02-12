@@ -12,13 +12,13 @@ Notes:
 - /fpssavior
 
   Toggle betwen modes.
-
+---
 ### Version History
--v2.4.4 I just realized that L and UL are only different by 1 option that got turned off on UL. To make both mode has distict use, I modified L so that it will show the boss gimmick similar to H and M. The drawback is that the option that disable the fallen leaves on orsha must be turned on on L. 
+**v2.4.4** I just realized that L and UL are only different by 1 option that got turned off on UL. To make both mode has distict use, I modified L so that it will show the boss gimmick similar to H and M. The drawback is that the option that disable the fallen leaves on orsha must be turned on on L. 
 
 The reason why I don't just turn off EnableOtherPCEffect on is that when certain gimmick is already shown inside the map, simply turning off EnableOtherPCEffect won't erase those gimmick. By toggling EnableOtherPCEffect along with EnableIMCEffect, the show-hide effect can be achieved.
 
--v2.4.1 a.k.a ep13fix-c.
+**v2.4.1** a.k.a ep13fix-c.
 - The "View Boss Magic Circle Range" option can be freely toogled on M, L, and UL.
 - Someone inform me that the fog(?) and fallen leaves on Orsha hurts fps. After further investigation, I conclude that EnableGlow and EnableIMCEffect is responsible for that respectively. Both options are disabled on L and UL.
 - There's an issue with certain boss gimmick such as firewall or tornado not shown on map on M, L, and UL. I'm not sure what cause this (looks like it's not depends on just one option), but now it's only gone on L and UL.
