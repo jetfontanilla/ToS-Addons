@@ -14,7 +14,9 @@ Notes:
   Toggle betwen modes.
 ---
 ### Version History
-**-v2.4.4** I just realized that L and UL are only different by 1 option that got turned off on UL. To make both mode has distict use, I modified L so that it will show the boss gimmick similar to H and M. The drawback is that the option that disable the fallen leaves on orsha must be turned on on L. 
+**-v2.4.4** I just realized that L and UL are only different by 1 option that got turned off on UL. To make both mode has distict use, I modified L so that it will show the boss gimmick similar to H and M. The drawback is:
+- The option that disable the fallen leaves on orsha must be turned on on L. 
+- The "Show Other Character's Effects" option are turned on on L (This include the effect generate by appearance equipment).
 
 The reason why I don't just turn on EnableOtherPCEffect alone on L is that when certain gimmick is already shown inside the map, simply turning off EnableOtherPCEffect won't erase those gimmick. By toggling EnableOtherPCEffect along with EnableIMCEffect, the toggle-like effect on boss gimmick can be achieved.
 
