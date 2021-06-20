@@ -458,7 +458,7 @@ function FPSSAVIOR_SHOWORHIDE_OBJ()
 				elseif session.party.GetPartyMemberInfoByName(PARTY_NORMAL, info.GetFamilyName(ObHandle)) == nil and session.party.GetPartyMemberInfoByName(PARTY_GUILD, info.GetFamilyName(ObHandle)) == nil then
 					world.Leave(ObHandle, 0.0 );
 				end
-			elseif (g.settings.allsum + g.settings.onlymy) > 0 and OwHandle ~= 0 then
+			elseif (g.settings.allsum + g.settings.onlymy) > 0 and OwHandle ~= 0 and session.GetMapName() ~= "uniq_castle_raid" then
 				if g.settings.allsum == 1 then
 					world.Leave(ObHandle, 0.0 );
 				elseif OwHandle ~= session.GetMyHandle() then
